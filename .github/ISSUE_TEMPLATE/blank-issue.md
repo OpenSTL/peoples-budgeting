@@ -8,9 +8,9 @@ assignees: ''
 ---
 
 ### Overview
-Definition of Ready (What are prerequisites for this task to be finished?):
+Definition of Ready (What are prerequisites to finish this task):
 
-Definition of Done (What does it mean for this task to be done?):
+Definition of Done (What does it look like for this task to be done):
 
 ### Action Items
 REPLACE THIS TEXT -If this is the beginning of the task this is most likely something to be researched and documented.
