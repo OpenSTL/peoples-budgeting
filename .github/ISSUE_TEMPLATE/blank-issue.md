@@ -8,7 +8,9 @@ assignees: ''
 ---
 
 ### Overview
-REPLACE THIS TEXT -Text here that clearly states the purpose of this issue in 2 sentences or less.
+Definition of Ready (What are prerequisites for this task to be finished?):
+
+Definition of Done (What does it mean for this task to be done?):
 
 ### Action Items
 REPLACE THIS TEXT -If this is the beginning of the task this is most likely something to be researched and documented.
