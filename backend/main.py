@@ -60,7 +60,6 @@ class BudgetTotal(BaseModel):
     general_fund: int
     special_revenues: int
     grants: int
-    notes: str
 
 # class Budget
 
