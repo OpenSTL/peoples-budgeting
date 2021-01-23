@@ -55,7 +55,7 @@ engine = sqlalchemy.create_engine(
 metadata.create_all(engine)
 
 class BudgetTotal(BaseModel):
-    id_: int
+    id: int
     budget_bucket: str
     total_budget: int
     general_fund: int
@@ -86,6 +86,6 @@ async def read_budget_totals(skip: int = 0, take: int = 20):
 
 @app.get("/budget_totals/{budget_id}", response_model=BudgetTotal, status_code = status.HTTP_200_OK)
 async def read_budget_total(budget_id: int):
-    query = budget_totals.select().where(budget_totals.c.id_ == budget_id)
+    query = budget_totals.select().where(budget_totals.c.id == budget_id)
     return await database.fetch_one(query)
 
