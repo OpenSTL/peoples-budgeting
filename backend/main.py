@@ -84,8 +84,8 @@ async def read_budget_totals(skip: int = 0, take: int = 20):
     query = budget_totals.select().offset(skip).limit(take)
     return await database.fetch_all(query)
 
-@app.get(f"/budget_totals/{budget_id}", response_model=BudgetTotal, status_code = status.HTTP_200_OK)
+@app.get("/budget_totals/{budget_id}", response_model=BudgetTotal, status_code = status.HTTP_200_OK)
 async def read_budget_total(budget_id: int):
     query = budget_totals.select().where(budget_totals.c.id_ == budget_id)
-    return await datatbase.fetch_one(query)
+    return await database.fetch_one(query)
 
