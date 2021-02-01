@@ -63,12 +63,12 @@ class BudgetData(BaseModel):
 
 class BudgetBucket(BaseModel):
     budget_bucket: str
-    data: BudgetData
+    total_budget: BudgetData
 
 class BudgetTotal(BaseModel):
     id: int
     budget_number: int
-    data: BudgetBucket
+    budget_bucket: BudgetBucket
 
 app = FastAPI(title="People's Project Backend REST API")
 app.add_middleware(
