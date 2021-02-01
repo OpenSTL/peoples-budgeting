@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Dict
 import databases
 import sqlalchemy
 from fastapi import FastAPI, status
@@ -27,6 +27,7 @@ budget_totals = sqlalchemy.Table(
     "budget_totals",
     metadata,
     sqlalchemy.Column("id", sqlalchemy.Integer, primary_key=True),
+    sqlalchemy.Column("budget_number", sqlalchemy.Integer),
     sqlalchemy.Column("budget_bucket", sqlalchemy.String),
     sqlalchemy.Column("total_budget", sqlalchemy.Integer),
     sqlalchemy.Column("general_fund", sqlalchemy.Integer),
@@ -54,13 +55,18 @@ engine = sqlalchemy.create_engine(
 )
 metadata.create_all(engine)
 
-class BudgetTotal(BaseModel):
-    id: int
-    budget_bucket: str
+class BudgetData(BaseModel):
     total_budget: int
     general_fund: int
     special_revenues: int
     grants: int
+
+class BudgetBucket(BaseModel):
+    budget_bucket: BudgetData
+
+class BudgetTotal(BaseModel):
+    id: int
+    budget_number: BudgetBucket
 
 app = FastAPI(title="People's Project Backend REST API")
 app.add_middleware(
@@ -88,4 +94,3 @@ async def read_budget_totals(skip: int = 0, take: int = 20):
 async def read_budget_total(budget_id: int):
     query = budget_totals.select().where(budget_totals.c.id == budget_id)
     return await database.fetch_one(query)
-
