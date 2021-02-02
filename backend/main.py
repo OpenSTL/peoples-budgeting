@@ -92,7 +92,7 @@ async def shutdown():
 @app.get("/budget_totals/", status_code = status.HTTP_200_OK)
 async def read_budget_totals(skip: int = 0, take: int = 20):
     query = budget_totals.select().offset(skip).limit(take)
-    data = database.fetch_all(query)
+    data = await database.fetch_all(query)
     response = []
     for entry in data:
         json_data = jsonable_encoder(entry)
@@ -108,7 +108,7 @@ async def read_budget_totals(skip: int = 0, take: int = 20):
             }
         }
         response.append(new_json_data)
-    return await json.dumps(new_json_data)
+    return json.dumps(new_json_data)
 
 @app.get("/budget_totals/{budget_id}", response_model=BudgetTotal, status_code = status.HTTP_200_OK)
 async def read_budget_total(budget_id: int):
