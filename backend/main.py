@@ -108,7 +108,7 @@ async def read_budget_totals(skip: int = 0, take: int = 20):
             }
         }
         response.append(new_json_data)
-    return json.dumps(new_json_data)
+    return new_json_data
 
 @app.get("/budget_totals/{budget_id}", response_model=BudgetTotal, status_code = status.HTTP_200_OK)
 async def read_budget_total(budget_id: int):
