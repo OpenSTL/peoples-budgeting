@@ -91,25 +91,24 @@ async def shutdown():
 
 @app.get("/budget_totals/", status_code = status.HTTP_200_OK)
 async def read_budget_totals(skip: int = 0, take: int = 20):
+    response = []
     query = budget_totals.select().offset(skip).limit(take)
     data = await database.fetch_all(query)
-    return data
-    # response = []
-    # for entry in data:
-    #     json_data = jsonable_encoder(entry)
-    #     new_json_data = {
-    #         id: json_data['id'],
-    #         json_data['budget_number']: {
-    #             json_data['budget_bucket']: {
-    #                 'total_budget': json_data['total_budget'],
-    #                 'general_fund': json_data['general_fund'],
-    #                 'special_revenues': json_data['special_revenues'],
-    #                 'grants': json_data['grants']
-    #             },
-    #         }
-    #     }
-    #     response.append(new_json_data)
-    # return new_json_data
+    json_data = jsonable_encoder(data)
+    for entry in json_data:
+        new_json_data = {
+            id: entry['id'],
+            entry['budget_number']: {
+                entry['budget_bucket']: {
+                    'total_budget': entry['total_budget'],
+                    'general_fund': entry['general_fund'],
+                    'special_revenues': entry['special_revenues'],
+                    'grants': entry['grants']
+                },
+            }
+        }
+        response.append(new_json_data)
+    return new_json_data
 
 @app.get("/budget_totals/{budget_id}", response_model=BudgetTotal, status_code = status.HTTP_200_OK)
 async def read_budget_total(budget_id: int):
