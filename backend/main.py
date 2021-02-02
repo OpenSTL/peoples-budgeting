@@ -94,8 +94,8 @@ async def read_budget_totals(skip: int = 0, take: int = 20):
     response = []
     query = budget_totals.select().offset(skip).limit(take)
     data = await database.fetch_all(query)
-    json_data = jsonable_encoder(data)
-    for entry in json_data:
+    # json_data = jsonable_encoder(data)
+    for entry in data:
         new_json_data = {
             id: entry['id'],
             entry['budget_number']: {
