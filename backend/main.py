@@ -8,6 +8,7 @@ from pydantic import BaseModel
 import os
 import urllib
 from dotenv import load_dotenv
+import json
 load_dotenv()
 #DATABASE_URL = "sqlite:///./test.db"
 
@@ -103,7 +104,7 @@ async def read_budget_totals(skip: int = 0, take: int = 20):
             },
         }
     }
-    return await new_json_data
+    return await json.dumps(new_json_data)
 
 @app.get("/budget_totals/{budget_id}", response_model=BudgetTotal, status_code = status.HTTP_200_OK)
 async def read_budget_total(budget_id: int):
