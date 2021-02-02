@@ -3,6 +3,7 @@ import databases
 import sqlalchemy
 from fastapi import FastAPI, status
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.encoders import jsonable_encoder
 from pydantic import BaseModel
 import os
 import urllib
@@ -55,20 +56,20 @@ engine = sqlalchemy.create_engine(
 )
 metadata.create_all(engine)
 
-class BudgetData(BaseModel):
-    total_budget: int
-    general_fund: int
-    special_revenues: int
-    grants: int
+# class BudgetData(BaseModel):
+#     total_budget: str
 
-class BudgetBucket(BaseModel):
-    budget_bucket: str
-    total_budget: BudgetData
+# class BudgetBucket(BaseModel):
+#     budget_bucket: Dict[str, int]
 
 class BudgetTotal(BaseModel):
     id: int
     budget_number: int
-    budget_bucket: BudgetBucket
+    budget_bucket: str
+    total_budget: int
+    general_fund: int
+    special_revenues: int
+    grants: int
 
 app = FastAPI(title="People's Project Backend REST API")
 app.add_middleware(
@@ -87,10 +88,22 @@ async def startup():
 async def shutdown():
     await database.disconnect()
 
-@app.get("/budget_totals/", response_model=List[BudgetTotal], status_code = status.HTTP_200_OK)
+@app.get("/budget_totals/", status_code = status.HTTP_200_OK)
 async def read_budget_totals(skip: int = 0, take: int = 20):
     query = budget_totals.select().offset(skip).limit(take)
-    return await database.fetch_all(query)
+    json_data = jsonable_encoder(database.fetch_all(query))
+    new_json_data = {
+        id: json_data['id'],
+        json_data['budget_number']: {
+            json_data['budget_bucket']: {
+                'total_budget': json_data['total_budget'],
+                'general_fund': json_data['general_fund'],
+                'special_revenues': json_data['special_revenues'],
+                'grants': json_data['grants']
+            },
+        }
+    }
+    return await new_json_data
 
 @app.get("/budget_totals/{budget_id}", response_model=BudgetTotal, status_code = status.HTTP_200_OK)
 async def read_budget_total(budget_id: int):
