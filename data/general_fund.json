@@ -1,0 +1,46 @@
+{
+    "Criminal Legal System": {
+        "SLMPD": 129272700,
+        "Police Retirement System": 29026317,
+        "CJC": 21556569,
+        "MSI": 7841889,
+        "Judicial Offices*": 45805316,
+        "Director of Public Safety": 742265,
+        "Other Police Units*": 16560755
+    },
+    "Operations": {
+        "Board of Public Service": 28155542,
+        "Streets": 20824725,
+        "Refuse": 19558298,
+        "Fire": 57596765,
+        "Building Division": 7873001,
+        "Forestry": 7968766,
+        "Emergency Management": 193225,
+        "Other Operations*": 2450785
+    },
+    "Government Administration": {
+        "Mayor": 2185434,
+        "BoA": 3391258,
+        "Comptroller": 6800467,
+        "City Counselor": 6156372,
+        "Budget Division": 473771,
+        "Department of Personnel": 3437478,
+        "Board of Elections": 4072617,
+        "County Offices*": 3637664,
+        "IT": 6245353,
+        "Personal and Contractual City Wide Accounts": 3325000,
+        "Civilian Oversight Board": 317160,
+        "Civil Rights Enforcement Agency": 353446,
+        "Other Government*": 726236
+    },
+    "Public Debt": {
+        "Debt Service*": 22021288,
+        "Firemens Retirement System": 6799232
+    },
+    "Social Services": {
+        "Health Department": 864500,
+        "Parks & Rec": 11471503,
+        "Human Services": 1328460,
+        "Neighborhood Stabilization": 2585436
+    }
+}
