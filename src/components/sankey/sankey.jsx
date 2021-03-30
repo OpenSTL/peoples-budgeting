@@ -4,7 +4,7 @@ import { sankey, sankeyLinkHorizontal } from 'd3-sankey'
 
 const SankeyNode = ({ name, x0, x1, y0, y1, colors, index, length, width, height}) => (
 
-    <div>
+    <>
         <rect 
         x={x0} 
         y={y0} 
@@ -27,12 +27,12 @@ const SankeyNode = ({ name, x0, x1, y0, y1, colors, index, length, width, height
         >
         {name}
         </text>
-    </div>   
+    </>   
 );
   
 const SankeyLink = ({ colors, data, width, length }) => (
 
-    <div>
+    <>
         <defs>
             <linearGradient
                 id={`gradient-${data.index}`}
@@ -53,7 +53,7 @@ const SankeyLink = ({ colors, data, width, length }) => (
                 strokeWidth: width
               }}
         />
-    </div>
+    </>
 );
 
 const SankeyDiagram = (props) => {
@@ -73,9 +73,9 @@ const SankeyDiagram = (props) => {
     if (data) {
         graph.current = layout(data)
         const { nodes, links } = graph.current
-
+        console.log(links)
         return (
-            <div>
+            <svg width={width} height={height}>
                 <g>
                     {nodes.map((node, i) => (
                         <SankeyNode
@@ -83,7 +83,7 @@ const SankeyDiagram = (props) => {
                         colors={colors}
                         width={width}
                         height={height}
-                        key={node.name}
+                        
                         />
                     ))}
                 </g>
@@ -95,7 +95,7 @@ const SankeyDiagram = (props) => {
                         />
                     ))}
                 </g>
-            </div>
+            </svg>
         )
     }
     
