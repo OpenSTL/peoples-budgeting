@@ -1,6 +1,8 @@
 import React from 'react';
 import Tree from 'react-d3-tree';
 
+const data1 = require('../../data/peoplesbudget_json.json')
+
 const NodeTree = () => {
     let data = {
         name: 'Departments',
@@ -53,11 +55,11 @@ const NodeTree = () => {
             
         ]
     }
-
+console.log(data1)
     return(
-        <div className='tree wrapper' style={{ height: '50em' }}>
+        <div className='tree wrapper' style={{ height: '500px', width: '1800px', border: '1px solid'}}>
             <Tree 
-                data={data}
+                data={data1}
                 orientation='vertical'
             />
         </div>

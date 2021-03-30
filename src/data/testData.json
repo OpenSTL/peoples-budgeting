@@ -1,0 +1,17 @@
+{
+    "nodes": [
+        {"name": "General Fund"},
+        {"name": "Criminal Legal System"},
+        {"name": "Government Operations"},
+        {"name": "Social Services"},
+        {"name": "Government Administration"},
+        {"name": "Debt"}
+    ],
+    "links": [
+        {"source":0,"target":1,"value":250805811},
+        {"source":0,"target":2,"value":162503987},
+        {"source":0,"target":3,"value":6011982},
+        {"source":0,"target":4,"value":40276525},
+        {"source":0,"target":5,"value":22021288}
+    ]
+}

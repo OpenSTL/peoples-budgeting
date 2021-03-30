@@ -72,8 +72,8 @@ const PieChart = () => {
                     data={data}
                     width={500}
                     height={500}
-                    innerRadius={120}
-                    outerRadius={200}
+                    innerRadius={50}
+                    outerRadius={100}
                 />
             </div>
         </div>

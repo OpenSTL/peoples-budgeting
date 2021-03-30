@@ -1,0 +1,2376 @@
+{
+    "children": [
+        {
+            "name": "General Fund",
+            "children": [
+                {
+                    "name": "Criminal Legal System",
+                    "children": [
+                        {
+                            "name": "SLMPD",
+                            "children": [
+                                {
+                                    "name": "Park Rangers",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Shift Differential",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "FICA",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Marshals",
+                                    "children": [
+                                        {
+                                            "name": "Surety Bond Prem & Ins",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Professional Services",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Asset Removal Unit",
+                                    "children": [
+                                        {
+                                            "name": "Other/All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Auxiliary Services Office",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Communications Services",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Aviation",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Police Metro Air Support",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Bomb & Arson",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Budget & Finance",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Vacation Buyout-Civilian",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Employ Retire-Debt Contr",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Reserve For 27Th Payday",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Vacation Buyout - Commissioned",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Sick Leave Buyout - Commissioned",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Emp Cont Retirement",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Bureau Of Community Policing",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Health/Safety Supplies",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Bureau Of Operations",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Cadet Program",
+                                    "children": [
+                                        {
+                                            "name": "Other/ All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "CALEA",
+                                    "children": [
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Canine",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Central Patrol Desk/Holdover",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Central Patrol Detectives",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Chief Of Police - Staff",
+                                    "children": [
+                                        {
+                                            "name": "Education/Training Serv",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Circuit Attorney Investigators",
+                                    "children": [
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Commander - Central Patrol Division",
+                                    "children": [
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Commander - North Patrol Division",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Commander - South Patrol Division",
+                                    "children": [
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Communications Division",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "FICA",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Communications Services",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Communications Service Center",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Communications",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Education/Training Serv",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Communications Services",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Community Engagement And Recruitment",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Court Time",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Crime Analysis Unit",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "D.A.R.T.",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Deputy Commander Specialized Enforcement",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Director, Academy",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Unlisted",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Health/Safety Supplies",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Ammunition",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "DNA Backlog 2011",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "DNA Backlog 2012",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Drug Enforcement And Intervention",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Emergency Management",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Fifth District",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "First District",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Fleet Services",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Fleet",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Gasoline",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Fleet Assets",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Force Investigation Unit",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Fourth District",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Fraud",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Gun Crime Intelligence Center",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Homicide",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Housing Authority",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Housing Authority Supplement",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Human Resources",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Long Term Disability",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Scholarship Program",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Life Insurance Costs",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Health Care Service",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Employees Dental Insur",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Work Comp - Disability",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Workers' Compensation Settlements",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Employer Medical Ins",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Retiree Medical Insur",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Information Technology",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Computer And Technology",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "FICA - Civilian",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Police HR Software",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Computer And Technology Supplies",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Communications Services",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Computer And Technology Services",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Rejis",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Intellectual Properties",
+                                    "children": [
+                                        {
+                                            "name": "Other/ All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Intelligence Division",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Unlisted",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Intelligence-Federal Task Forces",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Internal Affairs",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Investigative Services",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Juvenile",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Laboratory Identification",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Office Supplies",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Education/Training Serv",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Health/Safety Services",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "FICA",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Health/Safety Supplies",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "MCSAP 2015 Contract",
+                                    "children": [
+                                        {
+                                            "name": "Other/All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Metro Link",
+                                    "children": [
+                                        {
+                                            "name": "Other/All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Mobile Reserve",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "North Patrol Desk/Holdover",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "North Patrol Detectives",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Office Of The Assistant Chief",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Officer Wellness Cit Coordinator",
+                                    "children": [
+                                        {
+                                            "name": "Shift Differential Uniformed Employees",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Open Records Division",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Operational Planning",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Planning & Research",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Police Prosecutor Partnership",
+                                    "children": [
+                                        {
+                                            "name": "Other/All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Polygraph",
+                                    "children": [
+                                        {
+                                            "name": "Other/All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Prisoner Processing",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Civilian Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "FICA - Civilian",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Private Security",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Problem/Nuisance Behavior Unit",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Property Custody",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Public Affairs/Info",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Real Time Crime Center",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Software & Licenses",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Records",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Recruits In Training",
+                                    "children": [
+                                        {
+                                            "name": "Other/All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Second District",
+                                    "children": [
+                                        {
+                                            "name": "Work Comp Ins & Admin",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "FICA - Commissioned",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Shift Differential Uniformed Employees",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Sex Crimes",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Sixth District",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "South Patrol Desk/Holdover",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "South Patrol Detectives",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Special Ops Investigators",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Special Projects",
+                                    "children": [
+                                        {
+                                            "name": "Other/All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Stand By",
+                                    "children": [
+                                        {
+                                            "name": "Other/All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Supply/Uniform",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Office/Computer",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Unlisted",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Wearing Apparel",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "SWAT",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Technological Solutions And Investigations",
+                                    "children": [
+                                        {
+                                            "name": "Other/All",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Telephone Reporting (PIRS)",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Third District",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Traffic Safety/Mounted",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Warrant & Fugitive",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Commissioned Overtime",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Regular Employee",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        },
+                                        {
+                                            "name": "Salaries-Uniformed Positn",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [
+                                        {
+                                            "name": "Other",
+                                            "children": [],
+                                            "colname": "Level 4"
+                                        }
+                                    ],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Police Retirement System",
+                            "children": [
+                                {
+                                    "name": "Police Retirement Plan",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "CJC",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Inmate Medical",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Inmate Meals",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "MSI",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Inmate Medical",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other Contracts",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Probation & Juvenile Detention Center",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others*",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Circuit Court",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Contractual and Other Services",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Circuit Drug Court",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others***",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Circuit Attorney",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others*",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Sheriff",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others*",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "City Courts",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Public Administrator",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others*",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Director of Public Safety",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Other Police Units*",
+                            "children": [
+                                {
+                                    "name": "Board of Public Service - Equipement",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Board of Public Service  - Facilities",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "City Counselor - Police Unit",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Personnel Department - Police Unit",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Medical Examiner",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        }
+                    ],
+                    "colname": "Level 1"
+                },
+                {
+                    "name": "Operations",
+                    "children": [
+                        {
+                            "name": "Board of Public Service",
+                            "children": [
+                                {
+                                    "name": "President, Board of Public Service",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Facilities Management",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Equipment Services Division",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Office of Special Events",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Soliders Memorial Building",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Streets",
+                            "children": [
+                                {
+                                    "name": "Director of Streets",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Traffic and Lighting",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Auto and Towing Storage",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Street Division",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Debris Crew",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Refuse",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Transfer Station",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Debt Service",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Fleet",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Non-Capital Equipment",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Contracts and Rents",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Materials and Supplies",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Trash Task Force",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Fire",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Materials and Supplies",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Contracts",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Building Division",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Contracts",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Forestry",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others*",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Emergency Management",
+                            "children": [],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Other Operations*",
+                            "children": [],
+                            "colname": "Level 2"
+                        }
+                    ],
+                    "colname": "Level 1"
+                },
+                {
+                    "name": "Governmental Administration",
+                    "children": [
+                        {
+                            "name": "Mayor",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others*",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "BoA",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others*",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Comptroller",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Contractual and Other Services",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others***",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "City Counselor",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Contractual and Other Services",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others***",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Budget Division",
+                            "children": [],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Department of Personnel",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others*",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Board of Elections",
+                            "children": [],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "County Offices*",
+                            "children": [],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "IT",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Contractual and Other Services",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others***",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Personal and Contractual City Wide Accounts",
+                            "children": [],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Civilian Oversight Board",
+                            "children": [
+                                {
+                                    "name": "Personal Services",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Civil Rights Enforcement Agency",
+                            "children": [],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Other Government*",
+                            "children": [],
+                            "colname": "Level 2"
+                        }
+                    ],
+                    "colname": "Level 1"
+                },
+                {
+                    "name": "Debt",
+                    "children": [
+                        {
+                            "name": "Debt Service*",
+                            "children": [],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Firemens Retirement System",
+                            "children": [
+                                {
+                                    "name": "Firemens Retirement System",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Firefighers Retirement Plan",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        }
+                    ],
+                    "colname": "Level 1"
+                },
+                {
+                    "name": "Social Services",
+                    "children": [
+                        {
+                            "name": "Health Department",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Division of Recreation",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others*",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Division of Parks",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Contractual and Other Services",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Others***",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Human Services",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        },
+                        {
+                            "name": "Neighborhood Stabilization",
+                            "children": [
+                                {
+                                    "name": "Salaries and Benefits",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                },
+                                {
+                                    "name": "Other",
+                                    "children": [],
+                                    "colname": "Level 3"
+                                }
+                            ],
+                            "colname": "Level 2"
+                        }
+                    ],
+                    "colname": "Level 1"
+                }
+            ],
+            "colname": "Level 0"
+        }
+    ],
+    "name": "root"
+}
