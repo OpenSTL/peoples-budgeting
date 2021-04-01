@@ -8,8 +8,8 @@ import data from '../../data/testTreeMap.json'
 const TreeMapGraph = () => (
     <TreeMap
         id="myTreeMap"
-        width={1000}
-        height={1000}
+        width={600}
+        height={600}
         data={data}
         valueUnit={"USD"}
         hideNumberOfChildren={true}

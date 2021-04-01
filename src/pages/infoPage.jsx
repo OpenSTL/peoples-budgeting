@@ -1,6 +1,7 @@
 import React from 'react';
 import PieChart from '../components/piechart/index'
 import Sankey from '../components/sankey/index'
+import TreeMap from '../components/treemap/treemap'
 import '../css/infoPage.css';
 
 let pieData = [{label: 'Carceral State', value: '$322091900'}, {label: 'Operations', value: '$176012352'}, {label: 'Gov. Administration', value: '$52939806'}, {label: 'Public Debt', value: '$113910312'}, {label: 'Social Services', value: '$104376722'}, {label: 'City Enterprises', value: '$245519136'}, {label: 'Internal Services', value: '$92351677'}, ]
@@ -31,10 +32,10 @@ const mainPage = () => {
             
                 
             </section>
-            <h2>Sankey Diagram</h2>
-            <section className="nodeTree">
+            <h2>TreeMap Diagram</h2>
+            <section className="treemap">
                 
-                <Sankey/>
+                <TreeMap/>
             </section>
         </div>
     )
