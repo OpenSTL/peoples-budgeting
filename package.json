@@ -58,6 +58,19 @@
     ]
   },
   "devDependencies": {
+    "@babel/code-frame": "^7.12.13",
+    "@babel/compat-data": "^7.13.12",
+    "@babel/core": "^7.13.14",
+    "@babel/generator": "^7.13.9",
+    "@babel/helper-annotate-as-pure": "^7.12.13",
+    "@babel/helper-builder-binary-assignment-operator-visitor": "^7.12.13",
+    "@babel/helper-builder-react-jsx": "^7.12.13",
+    "@babel/helper-builder-react-jsx-experimental": "^7.12.11",
+    "@babel/helper-compilation-targets": "^7.13.13",
+    "@babel/helper-create-class-features-plugin": "^7.13.11",
+    "@babel/helper-create-regexp-features-plugin": "^7.12.17",
+    "@babel/helper-define-map": "^7.13.12",
+    "@babel/helper-explode-assignable-expression": "^7.13.0",
     "npm-run-all": "^4.1.5",
     "pg": "^8.5.1"
   }
