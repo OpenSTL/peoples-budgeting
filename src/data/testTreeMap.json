@@ -4,7 +4,36 @@
         {
             "name": "Criminal Legal System", 
             "children": [
-                {"name": "Policing (SLMPD, PRS, Police Units)", "value": 175602037},
+                {
+                    "name": "Policing (SLMPD, PRS, Police Units)", 
+                    "children": [
+                        {
+                            "name": "Leadership", 
+                            "children": [
+                                {"name": "Director of Public Safety", "value": 742265},
+                                {"name": "Chief of Police", "value": 1257295},
+                                {"name": "Patrol Commanders", "value": 1426140},
+                                {"name": "Internal Investigations", "value": 1052946},
+                                {"name": "Planning & Research", "value": 556442},
+                                {"name": "Other", "value": 1299865}
+                            ]
+                        },
+                        {
+                            "name": "Patrol", 
+                            "children": [
+                                {"name": "Central Patrol", "value": 1669747},
+                                {"name": "North Patrol", "value": 1293216},
+                                {"name": "South Patrol", "value": 1783862},
+                                {"name": "First District", "value": 5371306},
+                                {"name": "Second District", "value": 5664607},
+                                {"name": "Third District", "value": 5310794},
+                                {"name": "Fourth District", "value": 4617679},
+                                {"name": "Fifth District", "value": 4894766},
+                                {"name": "Sixth District", "value": 4943317}
+                            ]
+                        }
+                    ]
+                },
                 {"name": "Jails", "value": 46657291},
                 {"name": "Judicial Offices", "value": 28546483}
             ]
