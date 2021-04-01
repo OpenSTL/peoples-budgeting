@@ -1,0 +1,45 @@
+{
+    "name": "General Fund", 
+    "children": [
+        {
+            "name": "Criminal Legal System", 
+            "children": [
+                {"name": "Policing (SLMPD, PRS, Police Units)", "value": 175602037},
+                {"name": "Jails", "value": 46657291},
+                {"name": "Judicial Offices", "value": 28546483}
+            ]
+            
+        },
+        {
+            "name": "Operations", 
+            "children": [
+                {"name": "Board of Public Service", "value": 28401963},
+                {"name": "Streets", "value": 40383023},
+                {"name": "Parks and Forestry", "value": 17960262},
+                {"name": "Safety", "value": 73307954},
+                {"name": "Other", "value": 2450785}
+            ]
+            
+        },
+        {
+            "name": "Social Services", 
+            "children": [
+                {"name": "Health Department", "value": 864500},
+                {"name": "Division of Recreation", "value": 1233586},
+                {"name": "Human Services", "value": 1328460},
+                {"name": "Neighborhood Stabilization", "value": 2585436}
+            ]
+        },
+        {
+            "name": "Government Administration", 
+            "children": [
+                {"name": "County Offices", "value": 7710281},
+                {"name": "Government Support", "value": 16312974},
+                {"name": "Elected Offices", "value": 12377159},
+                {"name": "Other", "value": 3876111}
+            ]
+        },
+        {"name": "Debt", "value": 22021288}
+    ]
+
+}

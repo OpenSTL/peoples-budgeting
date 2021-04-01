@@ -7,13 +7,14 @@ import Header from './components/header/index'
 //import Footer from './components/footer/index'
 import MainPage from './pages/infoPage'
 import Sankey from './components/sankey/index'
+import TreeMap from './components/treemap/treemap'
 
 const App = () => {
   return (
     <div className="App">
       <Header/>
       
-      <Sankey/>
+      <TreeMap/>
       
     </div>
   );

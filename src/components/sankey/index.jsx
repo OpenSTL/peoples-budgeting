@@ -7,8 +7,6 @@ import './sankey.css'
 
 const Sankey = () => {
     
-    
-
     return (
         <div>
 

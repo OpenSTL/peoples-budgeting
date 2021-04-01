@@ -14,15 +14,18 @@ const SankeyNode = ({ name, x0, x1, y0, y1, colors, index, length, width, height
         data-index={index}
         />
         <text
+        id="node-label"
         x={x0 < width / 2 ? x1 + 6 : x0 - 6}
         y={(y1 + y0) / 2}
         style={{
           fill: d3.rgb(colors(index / length)).darker(),
           alignmentBaseline: "middle",
-          fontSize: 9,
+          fontSize: 18,
           textAnchor: x0 < width / 2 ? "start" : "end",
           pointerEvents: "none",
-          userSelect: "none"
+          userSelect: "none",
+          zindex: '-1',
+          position: 'relative'
         }}
         >
         {name}
@@ -59,15 +62,14 @@ const SankeyLink = ({ colors, data, width, length }) => (
 const SankeyDiagram = (props) => {
     const { data, width, height } = props
     const graph = useRef(null);
-    const offset = useRef(null);
     
 
     const layout = sankey()
     .nodeWidth(15)
-    .nodePadding(10)
+    .nodePadding(20)
     .extent([[1, 1], [width - 1, height - 5]])
 
-    const colors = d3.interpolateWarm
+    const colors = d3.interpolateCool
 
     
     if (data) {
@@ -92,6 +94,8 @@ const SankeyDiagram = (props) => {
                         <SankeyLink
                         data={link}
                         colors={colors}
+                        width={link.width}
+                        length={nodes.length}
                         />
                     ))}
                 </g>
