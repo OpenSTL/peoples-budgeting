@@ -20,8 +20,8 @@ const explanationStyle = {
 
     componentDidMount() {
       // Dimensions of sunburst.
-      var width = 1000;
-      var height = 800;
+      var width = 750;
+      var height = 600;
       var radius = Math.min(width, height) / 2;
   
       var x = d3.scaleLinear()
@@ -59,12 +59,16 @@ const explanationStyle = {
   
       var partition = d3.partition();
   
-      var arc = d3.arc()
-          .startAngle(function(d) { console.log(d); return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
-          .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
-          .innerRadius(function(d) { return radius * Math.sqrt(d.y0) / 1})
-          .outerRadius(function(d) { return radius * Math.sqrt(d.y0 + d.y1) / 2.5})
-
+    //   var arc = d3.arc()
+    //       .startAngle(function(d) { console.log(d); return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
+    //       .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
+    //       .innerRadius(function(d) { return radius * Math.sqrt(d.y0) / 1})
+    //       .outerRadius(function(d) { return radius * Math.sqrt(d.y0 + d.y1) / 2.5})
+    var arc = d3.arc()
+    .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
+    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
+    .innerRadius(function(d) { return Math.max(0, y(d.y0)); })
+    .outerRadius(function(d) { return Math.max(0, y(d.y1)); });
           
           
   
@@ -95,7 +99,6 @@ const explanationStyle = {
   
         var root = d3.hierarchy(json);
         root.sum(function(d) { return d.value; });
-        console.log(root)
         var nodes = partition(root).descendants()
         // filtering filters out over half of nodes
   /*          .filter(function(d) {
@@ -144,6 +147,7 @@ const explanationStyle = {
   
       // Fade all but the current sequence, and show it in the breadcrumb trail.
       function mouseover(event, d) {
+          console.log(d)
         var percentage = (100 * d.value / totalSize).toPrecision(3);
         var percentageString = percentage + "%";
         if (percentage < 0.1) {
@@ -224,19 +228,30 @@ const explanationStyle = {
       
       // calculate size of breadcrumb box due to name size
         function calculateBreadcrumbWidth(d) {
-            return (b.w + b.t + d.data.name.toString().length + 10);
+            return (b.w + b.t + d.data.name.toString().length * 4.0);
         }
 
         // calculate breadcrumb offset
         function calculateBreadcrumbOffset(d) {
             var offset = 0;
-            if (d.parent.name == "") {
+
+            if (d.parent.name == null) {
                 return 0;
             }
-            while (d.parent.name != "") {
+            while (d.parent.name != null) {
                 d = d.parent;
                 offset += (calculateBreadcrumbWidth(d) + b.g);
             }
+            return (offset);
+        }
+
+        function calculateBreadcrumbPercentage(nodeArray) {
+            var offset = 0;
+            for (var i = 0; i < nodeArray.length; i++) {
+                offset += calculateBreadcrumbWidth(nodeArray[i]);
+            }
+            offset += nodeArray.length * b.g;
+            offset += 45;
             return (offset);
         }
       // Generate a string that describes the points of a breadcrumb polygon.
@@ -244,9 +259,9 @@ const explanationStyle = {
         
         var points = [];
         points.push("0,0");
-        points.push(calculateBreadcrumbWidth(d) + ",0");
-        points.push(calculateBreadcrumbWidth(d) + b.t + "," + (b.h / 2));
-        points.push(calculateBreadcrumbWidth(d) + "," + b.h);
+        points.push(b.w + ",0");
+        points.push(b.w + b.t + "," + (b.h / 2));
+        points.push(b.w + "," + b.h);
         points.push("0," + b.h);
         if (i > 0) { // Leftmost breadcrumb; don't include 6th vertex.
           points.push(b.t + "," + (b.h / 2));
@@ -271,7 +286,7 @@ const explanationStyle = {
   
         entering.append("svg:text")
             .attr("x", function (d) {
-                return ((calculateBreadcrumbWidth(d) + b.t) / 2);
+                return ((b.w + b.t) / 2);
             })
             .attr("y", b.h / 2)
             .attr("dy", "0.35em")
@@ -279,10 +294,9 @@ const explanationStyle = {
             .text(function(d) { return d.data.name; });
   
         // Set position for entering and updating nodes.
-        d3.select("#trail")
-            .selectAll("g").attr("transform", function(d, i) {
-              return "translate(" + i * (b.w + b.s) + ", 0)";
-            });
+        g.attr("transform", function(d, i) {
+            return "translate(" + (d.depth - 1) * (b.w + b.s) + ", 0)";
+          });
   
         // Remove exiting nodes.
         g.exit().remove();
@@ -309,6 +323,7 @@ const explanationStyle = {
           <div id="main">
             <div id="sequence"></div>
             <div id="chart">
+
             </div>
           </div>
           
