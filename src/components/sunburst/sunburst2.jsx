@@ -226,49 +226,21 @@ const explanationStyle = {
           .style("fill", "#000");
       }
       
-      // calculate size of breadcrumb box due to name size
-        function calculateBreadcrumbWidth(d) {
-            return (b.w + b.t + d.data.name.toString().length * 4.0);
-        }
 
-        // calculate breadcrumb offset
-        function calculateBreadcrumbOffset(d) {
-            var offset = 0;
-
-            if (d.parent.name == null) {
-                return 0;
-            }
-            while (d.parent.name != null) {
-                d = d.parent;
-                offset += (calculateBreadcrumbWidth(d) + b.g);
-            }
-            return (offset);
-        }
-
-        function calculateBreadcrumbPercentage(nodeArray) {
-            var offset = 0;
-            for (var i = 0; i < nodeArray.length; i++) {
-                offset += calculateBreadcrumbWidth(nodeArray[i]);
-            }
-            offset += nodeArray.length * b.g;
-            offset += 45;
-            return (offset);
-        }
+        
       // Generate a string that describes the points of a breadcrumb polygon.
       function breadcrumbPoints(d, i) {
-        
-        var points = [];
-        points.push("0,0");
-        points.push(b.w + ",0");
-        points.push(b.w + b.t + "," + (b.h / 2));
-        points.push(b.w + "," + b.h);
-        points.push("0," + b.h);
-        if (i > 0) { // Leftmost breadcrumb; don't include 6th vertex.
-          points.push(b.t + "," + (b.h / 2));
-        }
-        return points.join(" ");
+      var points = [];
+      points.push("0,0");
+      points.push(b.w + ",0");
+      points.push(b.w + b.t + "," + (b.h / 2));
+      points.push(b.w + "," + b.h);
+      points.push("0," + b.h);
+      if (i > 0) { // Leftmost breadcrumb; don't include 6th vertex.
+        points.push(b.t + "," + (b.h / 2));
       }
-
+      return points.join(" ");
+    }
       // Update the breadcrumb trail to show the current sequence and percentage.
       function updateBreadcrumbs(nodeArray, percentageString) {
         // Data join; key function combines name and depth (= position in sequence).
@@ -294,7 +266,8 @@ const explanationStyle = {
             .text(function(d) { return d.data.name; });
   
         // Set position for entering and updating nodes.
-        g.attr("transform", function(d, i) {
+        d3.select("#trail")
+          .selectAll("g").attr("transform", function(d, i) {
             return "translate(" + (d.depth - 1) * (b.w + b.s) + ", 0)";
           });
   
