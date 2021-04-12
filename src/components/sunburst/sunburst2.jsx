@@ -20,7 +20,7 @@ const explanationStyle = {
 
     componentDidMount() {
       // Dimensions of sunburst.
-      var width = 750;
+      var width = 1000;
       var height = 600;
       var radius = Math.min(width, height) / 2;
   
@@ -32,7 +32,7 @@ const explanationStyle = {
   
       // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
       var b = {
-        w: 150, h: 30, s: 3, t: 10
+        w: 180, h: 30, s: 3, t: 10
       };
   
       // Mapping of step names to colors.
@@ -156,7 +156,10 @@ const explanationStyle = {
 
         let dollar = d.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         let dollarString = "$ " + dollar
-  
+        
+        d3.select("#percentage")
+            .text(dollarString);
+
         d3.select("#percentage")
             .text(dollarString);
   
@@ -296,7 +299,6 @@ const explanationStyle = {
           <div id="main">
             <div id="sequence"></div>
             <div id="chart">
-
             </div>
           </div>
           

@@ -8,20 +8,20 @@
 
 .framing-text {
     
-    width: 500px;
+    width: 600px;
 }
 
 .piechart {
-    width: 100%;
+    width: 90%;
     height: 500px;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
+    margin: auto;
 }
 .pie-description {
-    width: 700px;
+    width: 1200px;
+    margin: auto;
     
-    text-align: left;
+    
 
     
 }

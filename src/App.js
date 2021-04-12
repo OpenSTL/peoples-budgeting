@@ -15,7 +15,7 @@ const App = () => {
     <div className="App">
       <Header/>
       
-      <Sunburst/>
+      <MainPage/>
       
     </div>
   );
