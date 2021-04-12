@@ -1,0 +1,685 @@
+{
+    "name":"General Fund",
+    "children":[
+        {"name":"Criminal Legal System",
+        "children":[
+            {"name":"SLMPD",
+            "children":[
+                {"name":"Park Rangers",
+                "children":[
+                    {"name":"Other", "value":28029},
+                    {"name":"Shift Differential","value":92484},
+                    {"name":"Salaries-Uniformed Positn","value":105977},
+                    {"name":"Overtime","value":141392},
+                    {"name":"Salaries-Regular Employee","value":1041018},
+                    {"name":"FICA","value":99086}
+                ]},
+                {"name":"Marshals",
+                "children":[
+                    {"name":"Surety Bond Prem & Ins","value":-7000},
+                    {"name":"Salaries-Regular Employee","value":824488},
+                    {"name":"Other","value":329043},
+                    {"name":"Salaries-Uniformed Positn","value":160206},
+                    {"name":"Professional Services","value":210292}
+                ]},
+                {"name":"Asset Removal Unit",
+                "children":[
+                    {"name":"Other/All","value":102107}
+                ]},    
+                {"name":"Auxiliary Services Office",
+                "children":[
+                    {"name":"Other","value":5251},
+                    {"name":"Communications Services","value":100000},
+                    {"name":"Salaries-Uniformed Positn","value":172383}
+                ]},
+                {"name":"Aviation",
+                "children":[
+                    {"name":"Other","value":20342},
+                    {"name":"Salaries-Uniformed Positn","value":209081},
+                    {"name":"Police Metro Air Support","value":260000}
+                ]},
+                {"name":"Bomb & Arson",
+                "children":[
+                    {"name":"Other","value":48583},
+                    {"name":"Salaries-Uniformed Positn","value":241921}
+                ]},
+                {"name":"Budget & Finance",
+                "children":[
+                    {"name":"Other","value":154101},
+                    {"name":"Vacation Buyout-Civilian","value":125000},
+                    {"name":"Employ Retire-Debt Contr","value":339879},
+                    {"name":"Reserve For 27Th Payday","value":348511},
+                    {"name":"Vacation Buyout - Commissioned","value":425000},
+                    {"name":"Sick Leave Buyout - Commissioned","value":530000},
+                    {"name":"Salaries-Regular Employee","value":586146},
+                    {"name":"Emp Cont Retirement","value":2227907}
+                ]},
+                {"name":"Bureau Of Community Policing",
+                "children":[
+                    {"name":"Other","value":25257},
+                    {"name":"Salaries-Regular Employee","value":39547},
+                    {"name":"Health/Safety Supplies","value":268600},
+                    {"name":"Salaries-Uniformed Positn","value":383094}
+                ]},
+                {"name":"Bureau Of Operations",
+                "children":[
+                    {"name":"Other","value":14949},
+                    {"name":"Salaries-Regular Employee","value":44099},
+                    {"name":"Salaries-Uniformed Positn","value":255837}
+                ]},
+                {"name":"Cadet Program",
+                "children":[
+                    {"name":"Other/ All","value":141064}
+                ]},
+                {"name":"CALEA",
+                "children":[
+                    {"name":"Salaries-Regular Employee","value":87505}
+                ]},
+                {"name":"Canine",
+                "children":[
+                    {"name":"Other","value":165091},
+                    {"name":"Salaries-Uniformed Positn","value":475721}
+                ]},
+                {"name":"Central Patrol Desk/Holdover",
+                "children":[
+                    {"name":"Other","value":141902},
+                    {"name":"Salaries-Regular Employee","value":260848},
+                    {"name":"Salaries-Uniformed Positn","value":874004}
+                ]},
+                {"name":"Central Patrol Detectives",
+                "children":[
+                    {"name":"Other","value":12515},
+                    {"name":"Salaries-Uniformed Positn","value":380478}
+                ]},
+                {"name":"Chief Of Police - Staff",
+                "children":[
+                    {"name":"Education/Training Serv","value":-389969},
+                    {"name":"Salaries-Regular Employee","value":94813},
+                    {"name":"Other","value":90786},
+                    {"name":"Salaries-Uniformed Positn","value":1249367}
+                ]},
+                {"name":"Circuit Attorney Investigators",
+                "children":[
+                    {"name":"Salaries-Uniformed Positn","value":195303}
+                ]},
+                {"name":"Commander - Central Patrol Division",
+                "children":[
+                    {"name":"Salaries-Uniformed Positn","value":212455}
+                ]},
+                {"name":"Commander - North Patrol Division",
+                "children":[
+                    {"name":"Other","value":37771},
+                    {"name":"Salaries-Uniformed Positn","value":242771}
+                ]},
+                {"name":"Commander - South Patrol Division",
+                "children":[
+                    {"name":"Salaries-Uniformed Positn","value":216645}
+                ]},
+                {"name":"Communications Division",
+                "children":[
+                    {"name":"Other","value":203968},
+                    {"name":"FICA","value":327157},
+                    {"name":"Overtime","value":368531},
+                    {"name":"Salaries-Uniformed Positn","value":475526},
+                    {"name":"Communications Services","value":950612},
+                    {"name":"Salaries-Regular Employee","value":3596479}
+                ]},
+                {"name":"Communications Service Center",
+                "children":[
+                    {"name":"Other","value":120638},
+                    {"name":"Communications","value":251652},
+                    {"name":"Education/Training Serv","value":231040},
+                    {"name":"Communications Services","value":426770},
+                    {"name":"Salaries-Regular Employee","value":909599}
+                ]},
+                {"name":"Community Engagement And Recruitment",
+                "children":[
+                    {"name":"Other","value":25932},
+                    {"name":"Salaries-Uniformed Positn","value":184207}
+                ]},
+                {"name":"Court Time",
+                "children":[
+                    {"name":"Other","value":121691}
+                ]},
+                {"name":"Crime Analysis Unit",
+                "children":[
+                    {"name":"Other","value":36911},
+                    {"name":"Salaries","value":268054}
+                ]},
+                {"name":"D.A.R.T.",
+                "children":[
+                    {"name":"Other","value":17811},
+                    {"name":"Salaries-Uniformed Positn","value":250252}
+                ]},
+                {"name":"Deputy Commander Specialized Enforcement",
+                "children":[
+                    {"name":"Other","value":11074},
+                    {"name":"Salaries-Uniformed Positn","value":231337}
+                ]},
+                {"name":"Director, Academy",
+                "children":[
+                    {"name":"Other","value":278510},
+                    {"name":"Unlisted","value":99500},
+                    {"name":"Overtime","value":134760},
+                    {"name":"Health/Safety Supplies","value":163300},
+                    {"name":"Salaries-Regular Employee","value":213415},
+                    {"name":"Ammunition","value":300000},
+                    {"name":"Salaries-Uniformed Positn","value":1527682}
+                ]},
+                {"name":"DNA Backlog 2012",
+                "children":[
+                    {"name":"Other","value":97}
+                ]},
+                {"name":"Drug Enforcement And Intervention",
+                "children":[
+                    {"name":"Other","value":155847},
+                    {"name":"Salaries-Uniformed Positn","value":706904}
+                ]},
+                {"name":"Emergency Management",
+                "children":[
+                    {"name":"Other","value":112574}
+                ]},
+                {"name":"Fifth District",
+                "children":[
+                    {"name":"Other","value":314111},
+                    {"name":"Commissioned Overtime","value":448613},
+                    {"name":"Salaries-Uniformed Positn","value":4132042}
+                ]},
+                {"name":"First District",
+                "children":[
+                    {"name":"Other","value":300043},
+                    {"name":"Commissioned Overtime","value":587966},
+                    {"name":"Salaries-Uniformed Positn","value":4483297}
+                ]},
+                {"name":"Fleet Services",
+                "children":[
+                    {"name":"Other","value":81783},
+                    {"name":"Fleet","value":343210},
+                    {"name":"Gasoline","value":1251000},
+                    {"name":"Fleet Assets","value":1473910}
+                ]},
+                {"name":"Force Investigation Unit",
+                "children":[
+                    {"name":"Other","value":71001},
+                    {"name":"Salaries-Uniformed Positn","value":316118}
+                ]},
+                {"name":"Fourth District",
+                "children":[
+                    {"name":"Other","value":331305},
+                    {"name":"Commissioned Overtime","value":1042375},
+                    {"name":"Salaries-Uniformed Positn","value":3243999}
+                ]},
+                {"name":"Fraud",
+                "children":[
+                    {"name":"Other","value":78767},
+                    {"name":"Salaries-Uniformed Positn","value":177795}
+                ]},
+                {"name":"Gun Crime Intelligence Center",
+                "children":[
+                    {"name":"Other","value":56746}
+                ]},
+                {"name":"Homicide",
+                "children":[
+                    {"name":"Other","value":118200},
+                    {"name":"Commissioned Overtime","value":432714},
+                    {"name":"Salaries-Uniformed Positn","value":1777353}
+                ]},
+                {"name":"Housing Authority",
+                "children":[
+                    {"name":"Other","value":16420},
+                    {"name":"Salaries-Uniformed Positn","value":325931}
+                ]},
+                {"name":"Housing Authority Supplement",
+                "children":[
+                    {"name":"Other","value":90517},
+                    {"name":"Salaries-Uniformed Positn","value":215031}
+                ]},
+                {"name":"Human Resources",
+                "children":[
+                    {"name":"Other","value":12600},
+                    {"name":"Long Term Disability","value":148093},
+                    {"name":"Scholarship Program","value":150000},
+                    {"name":"Life Insurance Costs","value":203495},
+                    {"name":"Health Care Service","value":280000},
+                    {"name":"Employees Dental Insur","value":558263},
+                    {"name":"Work Comp - Disability","value":750000},
+                    {"name":"Workers' Compensation Settlements","value":4000000},
+                    {"name":"Employer Medical Ins","value":9160838},
+                    {"name":"Retiree Medical Insur","value":13788546}
+                ]},
+                {"name":"Information Technology",
+                "children":[
+                    {"name":"Other","value":164366},
+                    {"name":"Computer And Technology","value":484024},
+                    {"name":"FICA - Civilian","value":195747},
+                    {"name":"Police HR Software","value":290290},
+                    {"name":"Computer And Technology Supplies","value":313093},
+                    {"name":"Communications Services","value":536177},
+                    {"name":"Computer And Technology Services","value":1556114},
+                    {"name":"Rejis","value":1736794},
+                    {"name":"Salaries-Regular Employee","value":2464769}
+                ]},
+                {"name":"Intellectual Properties",
+                "children":[
+                    {"name":"Other/ All","value":675}
+                ]},
+                {"name":"Intelligence Division",
+                "children":[
+                    {"name":"Other","value":294711},
+                    {"name":"Unlisted","value":95000},
+                    {"name":"Commissioned Overtime","value":203732},
+                    {"name":"Salaries-Uniformed Positn","value":975418}
+                ]},
+                {"name":"Intelligence-Federal Task Forces",
+                "children":[
+                    {"name":"Other","value":40309},
+                    {"name":"Commissioned Overtime","value":227233},
+                    {"name":"Salaries-Uniformed Positn","value":939111}
+                ]},
+                {"name":"Internal Affairs",
+                "children":[
+                    {"name":"Other","value":29887},
+                    {"name":"Salaries","value":635940}
+                ]},
+                {"name":"Investigative Services",
+                "children":[
+                    {"name":"Other","value":9300},
+                    {"name":"Salaries","value":236359}
+                ]},
+                {"name":"Juvenile",
+                "children":[
+                    {"name":"Other","value":29502},
+                    {"name":"Commissioned Overtime","value":103337},
+                    {"name":"Salaries-Uniformed Positn","value":799007}
+                ]},
+                {"name":"Laboratory Identification",
+                "children":[
+                    {"name":"Other","value":187642},
+                    {"name":"Office Supplies","value":206566},
+                    {"name":"Education/Training Serv","value":115070},
+                    {"name":"Health/Safety Services","value":147740},
+                    {"name":"FICA","value":184137},
+                    {"name":"Health/Safety Supplies","value":537160},
+                    {"name":"Salaries-Uniformed Positn","value":782039},
+                    {"name":"Salaries-Regular Employee","value":2152931}
+                ]},
+                {"name":"MCSAP 2015 Contract",
+                "children":[
+                    {"name":"Other/All","value":67665}
+                ]},
+                {"name":"Metro Link",
+                "children":[
+                    {"name":"Other/All","value":132}
+                ]},
+                {"name":"Mobile Reserve",
+                "children":[
+                    {"name":"Other","value":80771},
+                    {"name":"Salaries-Uniformed Positn","value":401201}
+                ]},
+                {"name":"North Patrol Desk/Holdover",
+                "children":[
+                    {"name":"Other","value":74044},
+                    {"name":"Salaries-Uniformed Positn","value":288344},
+                    {"name":"Salaries-Regular Employee","value":298357}
+                ]},
+                {"name":"North Patrol Detectives",
+                "children":[
+                    {"name":"Other","value":20667},
+                    {"name":"Salaries-Uniformed Positn","value":611804}
+                ]},
+                {"name":"Office Of The Assistant Chief",
+                "children":[
+                    {"name":"Other","value":9158},
+                    {"name":"Salaries","value":203140}
+                ]},
+                {"name":"Officer Wellness Cit Coordinator",
+                "children":[
+                    {"name":"Shift Differential Uniformed Employees","value":51521}
+                ]},
+                {"name":"Open Records Division",
+                "children":[
+                    {"name":"Other","value":26706},
+                    {"name":"Salaries-Regular Employee","value":301168}
+                ]},
+                {"name":"Operational Planning",
+                "children":[
+                    {"name":"Other","value":97548}
+                ]},
+                {"name":"Planning & Research",
+                "children":[
+                    {"name":"Other","value":43397},
+                    {"name":"Salaries","value":451203}
+                ]},
+                {"name":"Police Prosecutor Partnership",
+                "children":[
+                    {"name":"Other/All","value":23}
+                ]},
+                {"name":"Polygraph",
+                "children":[
+                    {"name":"Other/All","value":270}
+                ]},
+                {"name":"Prisoner Processing",
+                "children":[
+                    {"name":"Other","value":98524},
+                    {"name":"Civilian Overtime","value":123430},
+                    {"name":"FICA - Civilian","value":138035},
+                    {"name":"Salaries-Uniformed Positn","value":145906},
+                    {"name":"Salaries-Regular Employee","value":1561931}
+                ]},
+                {"name":"Private Security",
+                "children":[
+                    {"name":"Other","value":15340},
+                    {"name":"Salaries-Regular Employee","value":170592}
+                ]},
+                {"name":"Problem/Nuisance Behavior Unit",
+                "children":[
+                    {"name":"Other","value":17236},
+                    {"name":"Salaries-Uniformed Positn","value":170782}
+                ]},
+                {"name":"Property Custody",
+                "children":[
+                    {"name":"Other","value":30862},
+                    {"name":"Salaries-Regular Employee","value":180930},
+                    {"name":"Salaries-Uniformed Positn","value":337813}
+                ]},
+                {"name":"Public Affairs/Info",
+                "children":[
+                    {"name":"Other","value":19450},
+                    {"name":"Salaries","value":199826}
+                ]},
+                {"name":"Real Time Crime Center",
+                "children":[
+                    {"name":"Other","value":186908},
+                    {"name":"Software & Licenses","value":250000},
+                    {"name":"Salaries-Uniformed Positn","value":463411}
+                ]},
+                {"name":"Records",
+                "children":[
+                    {"name":"Other","value":85965},
+                    {"name":"Salaries-Regular Employee","value":552252}
+                ]},
+                {"name":"Recruits In Training",
+                "children":[
+                    {"name":"Other/All","value":19495}
+                ]},
+                {"name":"Second District",
+                "children":[
+                    {"name":"Work Comp Ins & Admin","value":77206},
+                    {"name":"FICA - Commissioned","value":95100},
+                    {"name":"Shift Differential Uniformed Employees","value":136000},
+                    {"name":"Commissioned Overtime","value":588224},
+                    {"name":"Salaries-Uniformed Positn","value":4768077}
+                ]},
+                {"name":"Sex Crimes",
+                "children":[
+                    {"name":"Other","value":64357},
+                    {"name":"Salaries-Uniformed Positn","value":606681}
+                ]},
+                {"name":"Sixth District",
+                "children":[
+                    {"name":"Other","value":299462},
+                    {"name":"Commissioned Overtime","value":578155},
+                    {"name":"Salaries-Uniformed Positn","value":4065700}
+                ]},
+                {"name":"South Patrol Desk/Holdover",
+                "children":[
+                    {"name":"Other","value":140396},
+                    {"name":"Salaries-Regular Employee","value":330488},
+                    {"name":"Salaries-Uniformed Positn","value":393133}
+                ]},
+                {"name":"South Patrol Detectives",
+                "children":[
+                    {"name":"Other","value":30450},
+                    {"name":"Salaries-Uniformed Positn","value":889395}
+                ]},
+                {"name":"Special Ops Investigators",
+                "children":[
+                    {"name":"Other","value":44845},
+                    {"name":"Commissioned Overtime","value":79391},
+                    {"name":"Salaries","value":760162}
+                ]},
+                {"name":"Special Projects",
+                "children":[
+                    {"name":"Other/All","value":61842}
+                ]},
+                {"name":"Stand By",
+                "children":[
+                    {"name":"Other/All","value":95341}
+                ]},
+                {"name":"Supply/Uniform",
+                "children":[
+                    {"name":"Other","value":171590},
+                    {"name":"Office/Computer","value":322855},
+                    {"name":"Unlisted","value":247210},
+                    {"name":"Salaries-Regular Employee","value":235395},
+                    {"name":"Wearing Apparel","value":1050095}
+                ]},
+                {"name":"SWAT",
+                "children":[
+                    {"name":"Other","value":106713},
+                    {"name":"Commissioned Overtime","value":186986},
+                    {"name":"Salaries-Uniformed Positn","value":913451}
+                ]},
+                {"name":"Technological Solutions And Investigations",
+                "children":[
+                    {"name":"Other/All","value":128544}
+                ]},
+                {"name":"Telephone Reporting (PIRS)",
+                "children":[
+                    {"name":"Other","value":217981},
+                    {"name":"Salaries","value":951060}
+                ]},
+                {"name":"Third District",
+                "children":[
+                    {"name":"Other","value":314694},
+                    {"name":"Commissioned Overtime","value":735015},
+                    {"name":"Salaries-Uniformed Positn","value":4261085}
+                ]},
+                {"name":"Traffic Safety/Mounted",
+                "children":[
+                    {"name":"Other","value":153969},
+                    {"name":"Commissioned Overtime","value":190049},
+                    {"name":"Salaries-Uniformed Positn","value":1038283}
+                ]},
+                {"name":"Warrant & Fugitive",
+                "children":[
+                    {"name":"Other","value":61199},
+                    {"name":"Commissioned Overtime","value":125800},
+                    {"name":"Salaries-Regular Employee","value":164788},
+                    {"name":"Salaries-Uniformed Positn","value":613762}
+                ]},
+                {"name":"Other",
+                "children":[
+                    {"name":"Other","value":602192}
+                ]}
+            ]},
+            {"name":"Police Retirement System",
+            "children":[
+                {"name":"Police Retirement Plan","value":28349185},
+                {"name":"Salaries and Benefits","value":677132}
+            ]},
+            {"name":"CJC",
+            "children":[
+                {"name":"Salaries and Benefits","value":17095210},
+                {"name":"Inmate Medical","value":2172793},
+                {"name":"Inmate Meals","value":1313690},
+                {"name":"Other","value":974876}
+            ]},
+            {"name":"MSI",
+            "children":[
+                {"name":"Salaries and Benefits","value":5744583},
+                {"name":"Inmate Medical","value":1609106},
+                {"name":"Other Contracts","value":488200}
+            ]},
+            {"name":"Probation & Juvenile Detention Center",
+            "children":[
+                {"name":"Salaries and Benefits","value":15434646},
+                {"name":"Others*","value":1824187}
+            ]},
+            {"name":"Circuit Court",
+            "children":[
+                {"name":"Salaries and Benefits","value":5294909},
+                {"name":"Contractual and Other Services","value":3813367},
+                {"name":"Circuit Drug Court","value":444000},
+                {"name":"Others***","value":680419}
+            ]},
+            {"name":"Circuit Attorney",
+            "children":[
+                {"name":"Salaries and Benefits","value":5614072},
+                {"name":"Others*","value":561250}
+            ]},
+            {"name":"Sheriff",
+            "children":[
+                {"name":"Salaries and Benefits","value":9232695},
+                {"name":"Others*","value":339020}
+            ]},
+            {"name":"City Courts",
+            "children":[
+                {"name":"Salaries and Benefits","value":1872678},
+                {"name":"Public Administrator","value":150223},
+                {"name":"Others*","value":543850}
+            ]},
+            {"name":"Director of Public Safety",
+            "children":[
+                {"name":"Salaries and Benefits","value":717571},
+                {"name":"Other","value":24694}
+            ]},
+            {"name":"Other Police Units*",
+            "children":[
+                {"name":"Board of Public Service - Equipement","value":4762756},
+                {"name":"Board of Public Service  - Facilities","valuee":3663470},
+                {"name":"City Counselor - Police Unit","value":4928572},
+                {"name":"Personnel Department - Police Unit","value":673917},
+                {"name":"Medical Examiner","value":2532040}
+            ]},
+        {"name":"Operations",
+        "children":[
+            {"name":"Board of Public Service",
+            "children":[
+                {"name":"President, Board of Public Service","value":2443480},
+                {"name":"Facilities Management","value":12994320},
+                {"name":"Equipment Services Division","value":12433139},
+                {"name":"Office of Special Events","value":114010},
+                {"name":"Soliders Memorial Building","value":127664},
+                {"name":"Other","value":42929}
+            ]},
+            {"name":"Streets",
+            "children":[
+                {"name":"Director of Streets","value":1322252},
+                {"name":"Traffic and Lighting","value":9656830},
+                {"name":"Auto and Towing Storage","value":1830923},
+                {"name":"Street Division","value":7137628},
+                {"name":"Debris Crew","value":877092}
+            ]},
+            {"name":"Refuse",
+            "children":[
+                {"name":"Salaries and Benefits","value":8154676},
+                {"name":"Transfer Station","value":5590000},
+                {"name":"Debt Service","value":1425740},
+                {"name":"Fleet","value":874260},
+                {"name":"Non-Capital Equipment","value":915000},
+                {"name":"Contracts and Rents","value":1580051},
+                {"name":"Materials and Supplies","value":678571},
+                {"name":"Trash Task Force","value":340000}
+            ]},
+            {"name":"Fire",
+            "children":[
+                {"name":"Salaries and Benefits","value":53648259},
+                {"name":"Materials and Supplies","value":1586989},
+                {"name":"Contracts","value":2283594},
+                {"name":"Other","value":77923}
+            ]},
+            {"name":"Building Division",
+            "children":[
+                {"name":"Salaries and Benefits","value":7322208},
+                {"name":"Contracts","value":453120},
+                {"name":"Other","value":97673}
+            ]},
+            {"name":"Forestry",
+            "children":[
+                {"name":"Salaries and Benefits","value":6970321},
+                {"name":"Others*","value":998445},
+            {"name":"Emergency Management", "value":193225},
+            {"name":"Other Operations*","value":2450785}
+            ]}
+        ]},
+        {"name":"Governmental Administration",
+        "children":[
+            {"name":"Mayor",
+            "children":[
+                {"name":"Salaries and Benefits","value":1999088},
+                {"name":"Others*","value":186346}
+            ]},
+            {"name":"BoA",
+            "children":[
+                {"name":"Salaries and Benefits","value":3190958},
+                {"name":"Others*","value":200300}
+            ]},
+            {"name":"Comptroller",
+            "children":[
+                {"name":"Salaries and Benefits","value":4070757},
+                {"name":"Contractual and Other Services","value":2602510},
+                {"name":"Others***","value":127200}
+            ]},
+            {"name":"City Counselor",
+            "children":[
+                {"name":"Salaries and Benefits","value":3880672},
+                {"name":"Contractual and Other Services","value":2202500},
+                {"name":"Others***","value":73200}
+            ]},
+            {"name":"Department of Personnel",
+            "children":[
+                {"name":"Salaries and Benefits","value":2654478},
+                {"name":"Others*","value":783000}
+            ]},
+            {"name":"IT",
+            "children":[
+                {"name":"Salaries and Benefits","value":3875764},
+                {"name":"Contractual and Other Services","value":2313589},
+                {"name":"Others***","value":56000}
+            ]},
+            {"name":"Civilian Oversight Board",
+            "children":[
+                {"name":"Personal Services","value":283810},
+                {"name":"Other","value":33350}
+            ]}
+        ]},
+        {"name":"Debt",
+        "children":[
+            {"name":"Firemens Retirement System",
+            "children":[
+                {"name":"Firemens Retirement System","value":1167514},
+                {"name":"Firefighers Retirement Plan","value":5631718}
+            ]}
+        ]},
+        {"name":"Social Services",
+        "children":[
+            {"name":"Health Department",
+            "children":[
+                {"name":"Salaries and Benefits","value":715500},
+                {"name":"Other","value":149000}
+            ]},
+            {"name":"Division of Recreation",
+            "children":[
+                {"name":"Salaries and Benefits","value":1058122},
+                {"name":"Others*","value":175464}
+            ]},
+            {"name":"Division of Parks",
+            "children":[
+                {"name":"Salaries and Benefits","value":6136300},
+                {"name":"Contractual and Other Services","value":2058150},
+                {"name":"Others***","value":319763}
+            ]},
+            {"name":"Human Services",
+            "children":[
+                {"name":"Salaries and Benefits","value":1188698},
+                {"name":"Other","value":139762}
+            ]},
+            {"name":"Neighborhood Stabilization",
+            "children":[
+                {"name":"Salaries and Benefits","value":2357828},
+                {"name":"Other","value":227608}
+            ]}
+        ]}
+    ]}    
+]}

@@ -8,13 +8,14 @@ import Header from './components/header/index'
 import MainPage from './pages/infoPage'
 import Sankey from './components/sankey/index'
 import TreeMap from './components/treemap/treemap'
+import Sunburst from './components/sunburst/index'
 
 const App = () => {
   return (
     <div className="App">
       <Header/>
       
-      <MainPage/>
+      <Sunburst/>
       
     </div>
   );
