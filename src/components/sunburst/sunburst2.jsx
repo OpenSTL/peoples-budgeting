@@ -27,7 +27,7 @@ const explanationStyle = {
       var x = d3.scaleLinear()
           .range([0, 2 * Math.PI]);
   
-      var y = d3.scaleLinear()
+      var y = d3.scaleSqrt()
           .range([0, radius]);
   
       // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
@@ -44,8 +44,9 @@ const explanationStyle = {
         "other": "#a173d1",
         "end": "#bbbbbb"
       };*/
-      var colors = d3.scaleOrdinal().range(["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]);
-      this.colors = colors;
+        var colors = d3.scaleOrdinal().range(["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]);
+        // var colors = d3.scalescaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1))
+        
   
       // Total size of all segments; we set this later, after loading the data.
       var totalSize = 0; 
@@ -59,16 +60,16 @@ const explanationStyle = {
   
       var partition = d3.partition();
   
-    //   var arc = d3.arc()
-    //       .startAngle(function(d) { console.log(d); return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
-    //       .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
-    //       .innerRadius(function(d) { return radius * Math.sqrt(d.y0) / 1})
-    //       .outerRadius(function(d) { return radius * Math.sqrt(d.y0 + d.y1) / 2.5})
-    var arc = d3.arc()
-    .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
-    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
-    .innerRadius(function(d) { return Math.max(0, y(d.y0)); })
-    .outerRadius(function(d) { return Math.max(0, y(d.y1)); });
+        //   var arc = d3.arc()
+        //   .startAngle(function(d) { return d.x0; })
+        //   .endAngle(function(d) { return d.x0 + d.x1; })
+        //   .innerRadius(function(d) { return radius * Math.sqrt(d.y0) / 10; })
+        //   .outerRadius(function(d) { return radius * Math.sqrt(d.y0 + d.y1) / 10; });
+        var arc = d3.arc()
+        .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x0))); })
+        .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x1))); })
+        .innerRadius(function(d) {  return Math.max(0, y(d.y0) ); })
+        .outerRadius(function(d) { return Math.max(0, y(d.y1)); });
           
           
   
