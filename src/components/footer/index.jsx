@@ -1,10 +1,11 @@
 import React from 'react';
+import './footer.css'
 
 
 const Header = () => {
     return (
-        <div className='header'>
-            <h1>People's Budgeting Platform</h1>
+        <div className='footer'>
+            <p>This website is custom developed and maintained by <a href='https://openstl.org'>OpenSTL</a></p>
         </div>
     )
 }

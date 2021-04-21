@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   background-color: #fff;
@@ -10,7 +10,7 @@ body {
   display: block;
   margin: auto;
   width: 750px;
-  justify-content: center;
+  
 }
   
 #sequence {
@@ -29,17 +29,19 @@ body {
 
 #chart {
   position: relative;
+  align-items: center;
 }
 
 #chart path {
   stroke: #fff;
+  right: 70px;
 }
 
 #explanation {
   position: absolute;
   font-size: 18px;
   top: 230px;
-  left: 430px;
+  left: 300px;
   width: 140px;
   text-align: center;
   color: #666;
@@ -50,7 +52,7 @@ body {
   position: absolute;
   font-size: 20px;
   top: 300px;
-  left: 430px;
+  left: 300px;
   width: 140px;
   text-align: center;
   z-index: -1;

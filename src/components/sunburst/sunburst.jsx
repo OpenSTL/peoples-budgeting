@@ -28,7 +28,7 @@ const SunburstGraph = (props) => {
         w: 75, h: 30, s: 3, t: 10
     };
 
-    var colors = d3.scaleOrdinal().range(["red", "green", "blue", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);;
+    var colors = d3.scaleOrdinal().range(["red", "green", "blue", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
     let vis = d3.select('#chart').append('svg:svg')
         .attr("width", width)

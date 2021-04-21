@@ -393,7 +393,7 @@
         },
         {
             "name": "Gov. Administration",
-            "chidlren": [
+            "children": [
                 {
                     "name": "County Offices",
                     "children": [

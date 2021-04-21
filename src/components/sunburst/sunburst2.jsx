@@ -20,7 +20,7 @@ const explanationStyle = {
 
     componentDidMount() {
       // Dimensions of sunburst.
-      var width = 1000;
+      var width = 740;
       var height = 600;
       var radius = Math.min(width, height) / 2;
   
@@ -94,7 +94,7 @@ const explanationStyle = {
         // when the mouse leaves the parent g.
         vis.append("svg:circle")
             .attr("r", radius)
-            .style("opacity", 0);
+            .style("opacity", 0)
   
         // For efficiency, filter nodes to keep only those large enough to see.
   
