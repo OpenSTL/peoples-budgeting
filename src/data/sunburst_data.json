@@ -3,6 +3,7 @@
     "children":[
         {
             "name": "Criminal Legal System",
+            "description": "Enforces, settles, and investigates cases of criminal and civil law",
             "children": [
                 {
                     "name":"Policing",

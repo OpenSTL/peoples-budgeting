@@ -16,7 +16,7 @@ const mainPage = () => {
                 
                 <div className="framing-text">
                     <h1></h1>
-                    <p> Budgets are moral documents which reflect our values and priorities. Unfortunately, the city budgeting process is notoriously opaque, and is designed to meet the needs of political and economic elites, not the people. This interactive budget visualization is intended to empower St. Louisans to both understand the city budget, and to communicate their fiscal priorities.</p>
+                    <p> Budgets are moral documents which reflect our values and priorities. Unfortunately, the city budgeting process is notoriously opaque, and is designed to meet the needs of political and economic elites, not the people. This interactive budget visualization is intended to empower St. Louisans to both understand the city budget, and to communicate their fiscal priorities. Please hover over each color to see more information!</p>
                 </div>
                 
             </section>
