@@ -160,12 +160,10 @@ const explanationStyle = {
         
         d3.select("#percentage")
             .text(dollarString);
-
-        d3.select("#percentage")
-            .text(dollarString);
   
         d3.select("#explanation")
-            .style("visibility", "");
+            .style("visibility", "")
+            .text(d.data.name);
   
         var sequenceArray = getAncestors(d);
         updateBreadcrumbs(sequenceArray, dollarString);
@@ -300,6 +298,8 @@ const explanationStyle = {
           <div id="main">
             <div id="sequence"></div>
             <div id="chart">
+              <div id="explanation" style={{visibility: 'hidden'}}></div>
+              <div id="percentage"></div><br/>
             </div>
           </div>
           

@@ -21,7 +21,7 @@ const mainPage = () => {
                 
             </section>
             <section className="data">
-                <h1>The data</h1>
+                <h1>FY 2020-2021 General Fund</h1>
                 <div className="piechart">
                     <Sunburst/>
                     <div className="pie-description">
