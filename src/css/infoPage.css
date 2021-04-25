@@ -1,10 +1,10 @@
 .App {
     font-family: 'Roboto', sans-serif;
-      text-align: center;
+    text-align: center;
     }
 .title {
-    height:  500px;
-    background-color: #C4C4C4;
+    height:  300px;
+    background-color:  #dbdbdb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,9 @@
 .framing-text {
     
     width: 600px;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: left;
 }
 
 .data{
@@ -27,9 +30,11 @@
     margin: auto;
 }
 .pie-description {
-    width: 1200px;
+    width: 800px;
     margin: auto;
-    
+    line-height: 140%;
+    font-size: 16px;
+    text-align: left;
 }
 
 .whitespace {
